@@ -65,7 +65,8 @@ $ yarn add obclone
 >>console.log(b)
 >>{"v1" : 1}
 ```
-Similarly in array.
+Similarly in arrays...
+
 ## licence
 MIT [licence](https://opensource.org/licenses/MIT)
 
