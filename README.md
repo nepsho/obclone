@@ -1,6 +1,5 @@
 
 # obclone
-[![NPM](https://nodei.co/npm/obclone.png)](https://www.npmjs.org/package/obclone)
 
 [![npm version](https://img.shields.io/npm/v/obclone.svg?style=flat-square)](https://www.npmjs.org/package/obclone)
 [![Build Status](https://travis-ci.org/nepsho/obclone.svg?branch=master)](https://travis-ci.org/nepsho/obclone)
