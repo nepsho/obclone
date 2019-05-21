@@ -7,7 +7,7 @@
 [![npm repository](https://img.shields.io/static/v1.svg?label=Repository&message=GitHub&color=yellow)](https://github.com/nepsho/obclone)
 [![npm author](https://img.shields.io/static/v1.svg?label=Author&message=bcrazydreamer&color=success)](https://www.npmjs.com/~bcrazydreamer)
 
->**obclone** Js object or variable copy API, its useful to create **deep copy** and **shallow copy** of objects and variables. Helpful for arrays and objects.
+>**obclone:** Js object or variable copy API, its useful to create **deep copy** and **shallow copy** of objects and variables. Helpful for arrays and objects.
 ## Features
 - DeepCopy
 - ShallowCopy
