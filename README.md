@@ -47,10 +47,10 @@ $ yarn add obclone
 >>a["v2"] = 2;
 
 >>console.log(a)
->>{"v1" : 1,"v2" : 2}
+>>{"v1" : 1, "v2" : 2}
 
 >>console.log(b)
->>{"v1" : 1,"v2" : 2}
+>>{"v1" : 1, "v2" : 2}
 ```
 ```js
 //DeepCopy--------------------------
@@ -60,11 +60,12 @@ $ yarn add obclone
 
 
 >>console.log(a)
->>{"v1" : 1,"v2" : 2}
+>>{"v1" : 1, "v2" : 2}
 
 >>console.log(b)
 >>{"v1" : 1}
 ```
+Similarly in array.
 ## licence
 MIT [licence](https://opensource.org/licenses/MIT)
 
