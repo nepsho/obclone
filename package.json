@@ -1,0 +1,38 @@
+{
+  "name": "obclone",
+  "version": "0.0.1",
+  "description": "Js objects and variables copy API",
+  "main": "index.js",
+  "contributors": [
+    "bcrazydreamer <bcrazydreamer@gmail.com>"
+  ],
+  "scripts": {
+    "test": "node ./test/test.js"
+  },
+  "license": "MIT",
+  "repository": "nepsho/obclone",
+  "bugs": {
+    "url": "https://github.com/nepsho/obclone/issues"
+  },
+  "author": "bcrazydreamer <bcrazydreamer@gmail.com>",
+  "homepage": "https://nepsho.github.io/",
+  "keywords": [
+    "api",
+    "object",
+    "JavaScript",
+    "object copy",
+    "deep copy",
+    "shallow copy"
+  ],
+  "files": [
+    "LICENSE",
+    "README.md",
+    "History.md",
+    "index.js",
+    "lib/",
+    "test"
+  ],
+  "dependencies": {
+    "bvalid": ">0.0.1"
+  }
+}
