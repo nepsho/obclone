@@ -1,6 +1,6 @@
 {
   "name": "obclone",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Js objects and variables copy API",
   "main": "index.js",
   "contributors": [
@@ -19,6 +19,9 @@
   "keywords": [
     "api",
     "object",
+    "obclone",
+    "clone",
+    "copy",
     "JavaScript",
     "object copy",
     "deep copy",
