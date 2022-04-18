@@ -3,17 +3,8 @@
 
 [![npm version](https://img.shields.io/npm/v/obclone.svg?style=flat-square)](https://www.npmjs.org/package/obclone)
 [![Build Status](https://travis-ci.org/nepsho/obclone.svg?branch=master)](https://travis-ci.org/nepsho/obclone)
-[![npm license](https://img.shields.io/static/v1.svg?label=License&message=MIT&color=informational)](https://github.com/nepsho/obclone/blob/master/LICENSE)
-[![npm repository](https://img.shields.io/static/v1.svg?label=Repository&message=GitHub&color=yellow)](https://github.com/nepsho/obclone)
-[![npm author](https://img.shields.io/static/v1.svg?label=Author&message=bcrazydreamer&color=success)](https://www.npmjs.com/~bcrazydreamer)
 
->**obclone:** Js objects or variables copy API, its useful to create **deep copy** and **shallow copy** of objects and variables. (Helpful for arrays and objects)
-## Features
-- DeepCopy
-- ShallowCopy
-
-## Support
->All node versions
+>**obclone:** Genrate deepcopy of variables
 
 ## Installing
 [![NPM](https://nodei.co/npm/obclone.png?mini=true)](https://www.npmjs.org/package/obclone)
@@ -23,41 +14,20 @@
 $ npm install obclone
 ```
 
-**Using bower:**
-
-```bash
-$ bower install obclone
-```
-
 **Using yarn:**
-
 ```bash
 $ yarn add obclone
 ```
 
 ## Examples
-
 ```js
->>const oc = require("obclone");
+>>const clone = require("obclone");
 ```
+
 ```js
-//ShallowCopy--------------------------
 >>var a = {"v1" : 1};
->>var b = oc.shallowcopy(a);
+>>var b = clone(a);
 >>a["v2"] = 2;
-
->>console.log(a)
->>{"v1" : 1, "v2" : 2}
-
->>console.log(b)
->>{"v1" : 1, "v2" : 2}
-```
-```js
-//DeepCopy--------------------------
->>var a = {"v1" : 1};
->>var b = oc.deepcopy(a);
->>a["v2"] = 2;
-
 
 >>console.log(a)
 >>{"v1" : 1, "v2" : 2}
@@ -65,10 +35,9 @@ $ yarn add obclone
 >>console.log(b)
 >>{"v1" : 1}
 ```
-Similarly in arrays...
 
 ## licence
 MIT [licence](https://opensource.org/licenses/MIT)
 
 ## Author
-@BCrazyDreamer
+[Bharat Rawat](https://github.com/bcrazydreamer)

@@ -1,13 +1,13 @@
 {
   "name": "obclone",
-  "version": "1.0.0",
-  "description": "Js objects and variables copy API",
+  "version": "2.0.0",
+  "description": "Js objects and variables clone",
   "main": "index.js",
   "contributors": [
     "bcrazydreamer <bcrazydreamer@gmail.com>"
   ],
   "scripts": {
-    "test": "node ./test/test.js"
+    "test": "node ./test"
   },
   "license": "MIT",
   "repository": "nepsho/obclone",
@@ -28,14 +28,7 @@
     "shallow copy"
   ],
   "files": [
-    "LICENSE",
-    "README.md",
-    "History.md",
     "index.js",
-    "lib/",
     "test"
-  ],
-  "dependencies": {
-    "bvalid": ">0.0.1"
-  }
+  ]
 }
